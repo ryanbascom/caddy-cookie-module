@@ -1,2 +1,5 @@
-## caddy-cookie-module
-This caddy2 server module was a spike on reading and writing cookies on requests and responses.
+Some notes on building custom caddy modules.
+
+xcaddy build --with github.com/ryanbascom/caddy-xrequestid-module
+
+./caddy run
