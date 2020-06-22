@@ -22,7 +22,7 @@ func init() {
 type Cookie struct {
 	logger          *zap.Logger
 	Disabled		bool
-	CookiesToRemove []string
+	CookiesToRemove []string `json:cookies_to_remove,omitempty`
 }
 
 func (c Cookie) CaddyModule() caddy.ModuleInfo {
