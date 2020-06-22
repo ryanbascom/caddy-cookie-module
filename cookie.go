@@ -1,4 +1,4 @@
-package caddy_cookie_module
+package cookie
 
 import (
 	"github.com/caddyserver/caddy/v2"
