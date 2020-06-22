@@ -1,4 +1,4 @@
-module caddy-cookie-module
+module github.com/ryanbascom/caddy-cookie-module
 
 go 1.14
 
